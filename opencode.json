@@ -1,0 +1,18 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "skore": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Skore Hub",
+      "options": {
+        "baseURL": "https://api.skore.probabl.ai/v1",
+        "apiKey": "YmIzZDk2MTgtYWI3OC00MDU2LTg5NWQtYzliMGM0NGFlMDgy:JMhD+z1qg49gio/CYI6cqyyEuXrxedb3fqe3PREOOtVpzluXhlGq4KnLDRZdLOtMfppvIW216SzI7RScRBZi1w=="
+      },
+      "models": {
+        "skore-agent": {
+          "name": "Skore Agent"
+        }
+      }
+    }
+  }
+}
